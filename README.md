@@ -38,3 +38,7 @@ The lab integrates Microsoft Sentinel (SIEM) and Sophos (EDR) with multiple virt
  - Investigating attacker activity
  - Analyzing timestamps, IP addresses, processes, and files
  - Developing Indicators of Compromise (IOCs)
+
+<h2><a class="anchor" id="architecture-diagram"></a> 🏗️ Architecture Diagram</h2>
+
+![image alt](
