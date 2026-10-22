@@ -112,23 +112,21 @@ Establish an **SMB session** with the **Windows target** to investigate **admini
 
 ---
 
+## Step 8: Windows File-System Enumeration via SMB
 
+Investigate which directories are visible through an authenticated SMB session to the Windows target. 
 
+Connect to the **C$ Share**. After entering the password, the **SMB client** opened an **interactive session**. 
 
+![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/fdab75c73ab7e09f9b7cbd2ed4e30a1ff728a056/SMB_RELAY_ATTACK/Attack/images/Screenshot%202026-10-20%20201442.png)
 
+Enumerate **User** Profiles.
 
+![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/fdab75c73ab7e09f9b7cbd2ed4e30a1ff728a056/SMB_RELAY_ATTACK/Attack/images/Screenshot%202026-10-20%20201540.png)
 
+- The output showed profile directories named **Admin** and **user1**.
 
-
-
-
-
-
-
-
-
-
-
+---
 
 
 
