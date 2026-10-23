@@ -1,6 +1,6 @@
-# Attack 
+# ⚔️ Attack 
 
-## **Step 1: Attacker Machine Network Configuration**
+## 🌐 Step 1: Attacker Machine Network Configuration
 
 Identify the **IP address** before conducting security testing against the Windows target machine in an isolated VirtualBox.
 
@@ -11,7 +11,7 @@ Identify the **IP address** before conducting security testing against the Windo
 
 ---
 
-## Step 2: Network Discovery Using Nmap
+## 🔎 Step 2: Network Discovery Using Nmap
 
 Identify **active hosts** on the local lab network to determine which machines may be relevant to the subsequent security assessment.
 
@@ -25,7 +25,7 @@ Check the **Connective** with **Ping**.
 
 ---
 
-## Step 3: Service Enumeration on the Windows Target
+## 🛰️ Step 3: Service Enumeration on the Windows Target
 
 Identify **exposed network services** and their reported versions on the **discovered Windows host** to understand its **attack surface**.
 
@@ -41,7 +41,7 @@ Identify **exposed network services** and their reported versions on the **disco
 
 ---
 
-## Step 4: SMB Authentication Testing Using CrackMapExec
+## 🔐 Step 4: SMB Authentication Testing Using CrackMapExec
 
 **CrackMapExec** is a **network security testing tool** commonly used to assess Windows networks, especially **SMB** and **Active Directory** environments.
 
@@ -57,7 +57,7 @@ It can be used for **brute-force attacks**.
 
 ---
 
-## Step 5: SMB Share Enumeration Using SMBMap
+## 📂 Step 5: SMB Share Enumeration Using SMBMap
 
 **Enumerate SMB shares** on the **Windows target** and assess the **permissions** available to the **authenticated** lab account.
 
@@ -73,7 +73,7 @@ It can be used for **brute-force attacks**.
 
 ---
 
-## Step 6: SMB Account Enumeration and Security Software Discovery
+## 🖥️ Step 6: SMB Account Enumeration and Security Software Discovery
 
 Information exposed through authenticated **SMB access** on the Windows target and identify **endpoint security**.
 
@@ -98,7 +98,7 @@ Information exposed through authenticated **SMB access** on the Windows target a
 
 ---
 
-## Step 7: Accessing the Windows Administrative Share Using SMBClient
+## 🖥️ Step 7: Accessing the Windows Administrative Share Using SMBClient
 
 Establish an **SMB session** with the **Windows target** to investigate **administrative share access**.
 
@@ -112,7 +112,7 @@ Establish an **SMB session** with the **Windows target** to investigate **admini
 
 ---
 
-## Step 8: Windows File-System Enumeration via SMB
+## 📁 Step 8: Windows File-System Enumeration via SMB
 
 Investigate which directories are visible through an authenticated SMB session to the Windows target. 
 
@@ -128,7 +128,7 @@ Enumerate **User** Profiles.
 
 ---
 
-## Step 9: Enumerating the Admin User's SMB Share and Identifying Sensitive Files
+## 📂 Step 9: Enumerating the Admin User's SMB Share and Identifying Sensitive Files
 
 Enumerate the contents of the **Admin's directory** on an **SMB share**and identify potentially sensitive files for security investigation.
 
@@ -146,7 +146,7 @@ The directory listing reveals several user-profile folders, including Documents,
 
 ---
 
-## Step 10: Downloading Sensitive Files from an SMB Share
+## 📄 Step 10: Downloading Sensitive Files from an SMB Share
 
 Demonstrate how files identified during **SMB share enumeration** can be downloaded to a local machine when the current **SMB session** has sufficient permissions.
 
@@ -158,7 +158,7 @@ The SMB client downloads **credential.txt** and **financial.txt** from the remot
 
 ---
 
-## Step 11: Uploading Executable Files to an SMB Share
+## 📄 Step 11: Uploading Executable Files to an SMB Share
 
 Document how files from a local machine can be transferred to a remote SMB share when the established session has sufficient write permissions.
 
@@ -172,7 +172,7 @@ The SMB client transfers **encryption.exe** and **launcher.exe** from the local 
 
 ---
 
-## Step 12: Renaming Executables on an SMB Share
+## 📄 Step 12: Renaming Executables on an SMB Share
 
 Document file renaming and additional file uploads through an established SMB session, demonstrating the ability to modify files within the remote directory.
 
@@ -188,7 +188,7 @@ This command attempts to change the remote filename from launcher.exe to paint.e
 
 ---
 
-## Step 13: Inspecting Downloaded Files and Identifying Exposed Credentials
+## 📄 Step 13: Inspecting Downloaded Files and Identifying Exposed Credentials
 
 Verify the contents of files retrieved from the SMB share and assess the potential impact of sensitive information exposure.
 
