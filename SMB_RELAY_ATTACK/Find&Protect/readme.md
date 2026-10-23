@@ -88,7 +88,16 @@ Investigate Windows network-share access events to determine which SMB shares we
 - **AccessMask: 0x81**
 
 ![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/d571357dcd035702025b965c2f64d9262794fe89/SMB_RELAY_ATTACK/Find%26Protect/images/img%207.png)
+
+**Key Finding**
+
+- **TimeStamp: Oct 20,2026, 3:58:35.023 PM**
+- **RelativeTargetName: Users\Admin\Important file**
+- **AccessMask: 0x81**
+
 ![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/d571357dcd035702025b965c2f64d9262794fe89/SMB_RELAY_ATTACK/Find%26Protect/images/img%208.png)
+
+
 ![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/d571357dcd035702025b965c2f64d9262794fe89/SMB_RELAY_ATTACK/Find%26Protect/images/img%209.png)
 ![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/d571357dcd035702025b965c2f64d9262794fe89/SMB_RELAY_ATTACK/Find%26Protect/images/img%209.5.png)
 ![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/d571357dcd035702025b965c2f64d9262794fe89/SMB_RELAY_ATTACK/Find%26Protect/images/img%2010.png)
