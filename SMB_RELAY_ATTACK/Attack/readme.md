@@ -132,11 +132,11 @@ Enumerate **User** Profiles.
 
 Enumerate the contents of the **Admin's directory** on an **SMB share**and identify potentially sensitive files for security investigation.
 
-![image alt](
+![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/682afa7b6496a79351b412490976bc2b616e177e/SMB_RELAY_ATTACK/Attack/images/Screenshot%202026-10-20%20201631.png)
 
 The directory listing reveals several user-profile folders, including Documents, Downloads, Desktop, and Cookies. It also shows a directory named **Important file**.
 
-![image alt](
+![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/682afa7b6496a79351b412490976bc2b616e177e/SMB_RELAY_ATTACK/Attack/images/Screenshot%202026-10-20%20201751.png)
 
 **Key Finding**
 
@@ -152,7 +152,7 @@ Demonstrate how files identified during **SMB share enumeration** can be downloa
 
 Set the local download directory.
 
-![image alt](
+![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/682afa7b6496a79351b412490976bc2b616e177e/SMB_RELAY_ATTACK/Attack/images/Screenshot%202026-10-20%20201834.png)
 
 The SMB client downloads **credential.txt** and **financial.txt** from the remote directory to the specified local directory.
 
@@ -164,9 +164,9 @@ Document how files from a local machine can be transferred to a remote SMB share
 
 Set the local working directory.
 
-![image alt](
+![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/682afa7b6496a79351b412490976bc2b616e177e/SMB_RELAY_ATTACK/Attack/images/Screenshot%202026-10-20%20201948.png)
 
-![image alt](
+![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/682afa7b6496a79351b412490976bc2b616e177e/SMB_RELAY_ATTACK/Attack/images/Screenshot%202026-10-20%20202054.png)
 
 The SMB client transfers **encryption.exe** and **launcher.exe** from the local machine to the remote SMB directory.
 
@@ -176,9 +176,9 @@ The SMB client transfers **encryption.exe** and **launcher.exe** from the local 
 
 Document file renaming and additional file uploads through an established SMB session, demonstrating the ability to modify files within the remote directory.
 
-![image alt](
+![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/682afa7b6496a79351b412490976bc2b616e177e/SMB_RELAY_ATTACK/Attack/images/Screenshot%202026-10-20%20202229.png)
 
-![image alt](
+![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/682afa7b6496a79351b412490976bc2b616e177e/SMB_RELAY_ATTACK/Attack/images/Screenshot%202026-10-20%20202135.png)
 
 This command attempts to change the remote filename from launcher.exe to paint.exe.
 
@@ -192,7 +192,7 @@ This command attempts to change the remote filename from launcher.exe to paint.e
 
 Verify the contents of files retrieved from the SMB share and assess the potential impact of sensitive information exposure.
 
-![image alt](
+![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/faeca5c411b8784b73bc1c3d2dc00fed664a058b/SMB_RELAY_ATTACK/Attack/images/Screenshot%202026-10-20%20203656.png)
 
 **Key Finding**
 
