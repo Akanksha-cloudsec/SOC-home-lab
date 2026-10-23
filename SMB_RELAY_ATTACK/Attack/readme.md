@@ -188,7 +188,7 @@ This command attempts to change the remote filename from launcher.exe to paint.e
 
 ---
 
-## Inspecting Downloaded Files and Identifying Exposed Credentials
+## Step 13: Inspecting Downloaded Files and Identifying Exposed Credentials
 
 Verify the contents of files retrieved from the SMB share and assess the potential impact of sensitive information exposure.
 
@@ -201,21 +201,6 @@ Verify the contents of files retrieved from the SMB share and assess the potenti
 - **Financial information:** The second file contains company-related text, although the screenshot does not establish that it contains actual financial records.
 
 - **Data confidentiality:** The ability to retrieve and read these files demonstrates that information accessible through the SMB share could be exposed to a user with the current session's permissions.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
