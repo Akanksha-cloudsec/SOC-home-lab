@@ -1,4 +1,5 @@
-![image alt]([image.png](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/9d787f0d19110bac9cbc85ee061d6214aa1f40fc/SMB_RELAY_ATTACK/Find%26Protect/images/img%201.png))
+![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/9d787f0d19110bac9cbc85ee061d6214aa1f40fc/SMB_RELAY_ATTACK/Find%26Protect/images/img%201.png)
+
 ![image alt](image.png)
 ![image alt](image.png)
 ![image alt](image.png)
