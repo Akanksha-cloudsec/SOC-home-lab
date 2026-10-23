@@ -128,6 +128,87 @@ Enumerate **User** Profiles.
 
 ---
 
+## Step 9: Enumerating the Admin User's SMB Share and Identifying Sensitive Files
+
+Enumerate the contents of the **Admin's directory** on an **SMB share**and identify potentially sensitive files for security investigation.
+
+![image alt](
+
+The directory listing reveals several user-profile folders, including Documents, Downloads, Desktop, and Cookies. It also shows a directory named **Important file**.
+
+![image alt](
+
+**Key Finding**
+
+- **credential.txt**
+
+- **financial.txt**
+
+---
+
+## Step 10: Downloading Sensitive Files from an SMB Share
+
+Demonstrate how files identified during **SMB share enumeration** can be downloaded to a local machine when the current **SMB session** has sufficient permissions.
+
+Set the local download directory.
+
+![image alt](
+
+The SMB client downloads **credential.txt** and **financial.txt** from the remote directory to the specified local directory.
+
+---
+
+## Step 11: Uploading Executable Files to an SMB Share
+
+Document how files from a local machine can be transferred to a remote SMB share when the established session has sufficient write permissions.
+
+Set the local working directory.
+
+![image alt](
+
+![image alt](
+
+The SMB client transfers **encryption.exe** and **launcher.exe** from the local machine to the remote SMB directory.
+
+---
+
+## Step 12: Renaming Executables on an SMB Share
+
+Document file renaming and additional file uploads through an established SMB session, demonstrating the ability to modify files within the remote directory.
+
+![image alt](
+
+![image alt](
+
+This command attempts to change the remote filename from launcher.exe to paint.exe.
+
+**Remote file modification:** The SMB session allows file operations within the remote directory.
+
+**Misleading filenames:** Names such as Adobe.exe or paint.exe can make an executable appear legitimate, potentially complicating detection.
+
+---
+
+## Inspecting Downloaded Files and Identifying Exposed Credentials
+
+Verify the contents of files retrieved from the SMB share and assess the potential impact of sensitive information exposure.
+
+![image alt](
+
+**Key Finding**
+
+- **Credential exposure:** The downloaded file contains apparent usernames and plaintext passwords.
+
+- **Financial information:** The second file contains company-related text, although the screenshot does not establish that it contains actual financial records.
+
+- **Data confidentiality:** The ability to retrieve and read these files demonstrates that information accessible through the SMB share could be exposed to a user with the current session's permissions.
+
+
+
+
+
+
+
+
 
 
 
