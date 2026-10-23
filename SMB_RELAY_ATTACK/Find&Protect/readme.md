@@ -85,7 +85,9 @@ Investigate Windows network-share access events to determine which SMB shares we
 - **EventID: 5145 (Detailed File Share Check)**
 - **SharedName: C (C drive)**
 - **RelativeTargetName: Users**
-- **AccessMask: 0x81**
+- **AccessMask: 0x81 (READ_ATTRIBUTES (0x80) and READ_DATA (0x01))**
+
+---
 
 ![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/d571357dcd035702025b965c2f64d9262794fe89/SMB_RELAY_ATTACK/Find%26Protect/images/img%207.png)
 
@@ -93,13 +95,28 @@ Investigate Windows network-share access events to determine which SMB shares we
 
 - **TimeStamp: Oct 20,2026, 3:58:35.023 PM**
 - **RelativeTargetName: Users\Admin\Important file**
-- **AccessMask: 0x81**
+- **AccessMask: 0x81 (READ_ATTRIBUTES (0x80) and READ_DATA (0x01))**
+
+---
 
 ![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/d571357dcd035702025b965c2f64d9262794fe89/SMB_RELAY_ATTACK/Find%26Protect/images/img%208.png)
 
-
 ![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/d571357dcd035702025b965c2f64d9262794fe89/SMB_RELAY_ATTACK/Find%26Protect/images/img%209.png)
+
 ![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/d571357dcd035702025b965c2f64d9262794fe89/SMB_RELAY_ATTACK/Find%26Protect/images/img%209.5.png)
+
+**Key Finding**
+
+| **RelativeTargetName** | **AccessMask** | **Time Shown** |
+| :--- | :--- | :--- |
+| encryption.exe | 0x12019f | 4:06:59 PM |
+| financial.txt | 0x120089 | 4:04:35 PM |
+| credential.txt | 0x120089 | 4:04:10 PM |
+| encryption.exe | 0x2 | 4:06:59 PM |
+
+0x12019f : A combination of read, write, execute/traverse, attribute, delete-child, and security-related permissions.
+0x120089 : A combination of read data/list directory, read attributes, read extended attributes, and read permissions.
+
 ![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/d571357dcd035702025b965c2f64d9262794fe89/SMB_RELAY_ATTACK/Find%26Protect/images/img%2010.png)
 ![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/d571357dcd035702025b965c2f64d9262794fe89/SMB_RELAY_ATTACK/Find%26Protect/images/img%2011.png)
 ![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/d571357dcd035702025b965c2f64d9262794fe89/SMB_RELAY_ATTACK/Find%26Protect/images/img%2012.png)
