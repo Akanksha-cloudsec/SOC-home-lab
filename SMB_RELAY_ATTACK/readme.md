@@ -1,4 +1,4 @@
-# Recommended Mitigations
+# 🛡️ Recommended Mitigations
 
 - Restrict SMB share access using least-privilege permissions.
 
