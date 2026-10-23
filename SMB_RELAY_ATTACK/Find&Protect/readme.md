@@ -105,6 +105,8 @@ Investigate Windows network-share access events to determine which SMB shares we
 
 ![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/d571357dcd035702025b965c2f64d9262794fe89/SMB_RELAY_ATTACK/Find%26Protect/images/img%209.5.png)
 
+![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/d571357dcd035702025b965c2f64d9262794fe89/SMB_RELAY_ATTACK/Find%26Protect/images/img%2010.png)
+
 **Key Finding**
 
 | **RelativeTargetName** | **AccessMask** | **Time Shown** |
@@ -113,8 +115,10 @@ Investigate Windows network-share access events to determine which SMB shares we
 | financial.txt | 0x120089 | 4:04:35 PM |
 | credential.txt | 0x120089 | 4:04:10 PM |
 | encryption.exe | 0x2 | 4:06:59 PM |
+| encryption.exe | 0x10000| 4:17:11 PM |
 
 0x12019f : A combination of read, write, execute/traverse, attribute, delete-child, and security-related permissions.
+
 0x120089 : A combination of read data/list directory, read attributes, read extended attributes, and read permissions.
 
 ![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/d571357dcd035702025b965c2f64d9262794fe89/SMB_RELAY_ATTACK/Find%26Protect/images/img%2010.png)
