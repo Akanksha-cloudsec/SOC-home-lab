@@ -121,6 +121,10 @@ Investigate Windows network-share access events to determine which SMB shares we
 
 0x120089 : A combination of read data/list directory, read attributes, read extended attributes, and read permissions.
 
+0x10000 : Delete a file.
+
+---
+
 ![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/d571357dcd035702025b965c2f64d9262794fe89/SMB_RELAY_ATTACK/Find%26Protect/images/img%2010.png)
 ![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/d571357dcd035702025b965c2f64d9262794fe89/SMB_RELAY_ATTACK/Find%26Protect/images/img%2011.png)
 ![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/d571357dcd035702025b965c2f64d9262794fe89/SMB_RELAY_ATTACK/Find%26Protect/images/img%2012.png)
