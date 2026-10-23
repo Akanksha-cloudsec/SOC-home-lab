@@ -128,4 +128,17 @@ Investigate Windows network-share access events to determine which SMB shares we
 ![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/d571357dcd035702025b965c2f64d9262794fe89/SMB_RELAY_ATTACK/Find%26Protect/images/img%2011.png)
 
 ![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/d571357dcd035702025b965c2f64d9262794fe89/SMB_RELAY_ATTACK/Find%26Protect/images/img%2013.png)
+
 ![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/d571357dcd035702025b965c2f64d9262794fe89/SMB_RELAY_ATTACK/Find%26Protect/images/img%2014.png)
+
+**Key Finding**
+
+| **RelativeTargetName** | **AccessMask** | **Time Shown** |
+| :--- | :--- | :--- |
+| Launcher.exe | 0x12019f | 4:15:02 PM |
+| Launcher.exe | 0x2 | 4:15:02 PM |
+| Launcher.exe | 0x10000 | 4:17:39 PM |
+| decryption.exe | 0x12019f | 4:19:31 PM |
+| decryption.exe | 0x2| 4:19:31 PM |
+| decryption.exe | 0x10000 | 4:21:03 PM |
+
