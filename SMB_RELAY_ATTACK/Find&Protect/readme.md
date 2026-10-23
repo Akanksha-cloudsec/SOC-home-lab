@@ -45,10 +45,48 @@ Investigate successful network logons originating from the Kali Linux machine an
 
 ## 🔍 Step 3: Investigating Successful SMB Network Logons in Microsoft Sentinel
 
+Investigate Windows network-share access events to determine which SMB shares were accessed during the controlled lab.
+
 ![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/d571357dcd035702025b965c2f64d9262794fe89/SMB_RELAY_ATTACK/Find%26Protect/images/img%203.png)
+
+**Key Finding**
+
+- **TimeStamp: Oct 20,2026, 3:51:56.537 PM**
+- **EventID: 5140 (Network Shared network)**
+- **SharedName:ADMIN**
+- **AccessMask: 0x1 (Read a Shared file)**
+
 ![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/d571357dcd035702025b965c2f64d9262794fe89/SMB_RELAY_ATTACK/Find%26Protect/images/img%204.png)
+
+**Key Finding**
+
+- **TimeStamp: Oct 20,2026, 3:53:14.835 PM**
+- **EventID: 5140 (Network Shared network)**
+- **SharedName: ADMIN**
+- **RelativeTargetName: system32**
+- **AccessMask: 0x80 (Read file attributes)**
+
+---
+
 ![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/d571357dcd035702025b965c2f64d9262794fe89/SMB_RELAY_ATTACK/Find%26Protect/images/img%205.png)
+
+**Key Finding**
+
+- **TimeStamp: Oct 20,2026, 3:56:00.186 PM**
+- **EventID: 5140 (Network Shared network)**
+- **SharedName: C (C drive)**
+- **AccessMask: 0x1 (Read a Shared file)**
+
 ![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/d571357dcd035702025b965c2f64d9262794fe89/SMB_RELAY_ATTACK/Find%26Protect/images/img%206.png)
+
+**Key Finding**
+
+- **TimeStamp: Oct 20,2026, 3:56:28.638 PM**
+- **EventID: 5145 (Detailed File Share Check)**
+- **SharedName: C (C drive)**
+- **RelativeTargetName: Users**
+- **AccessMask: 0x81**
+
 ![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/d571357dcd035702025b965c2f64d9262794fe89/SMB_RELAY_ATTACK/Find%26Protect/images/img%207.png)
 ![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/d571357dcd035702025b965c2f64d9262794fe89/SMB_RELAY_ATTACK/Find%26Protect/images/img%208.png)
 ![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/d571357dcd035702025b965c2f64d9262794fe89/SMB_RELAY_ATTACK/Find%26Protect/images/img%209.png)
