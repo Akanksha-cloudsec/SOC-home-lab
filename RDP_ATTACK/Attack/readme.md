@@ -121,6 +121,9 @@ Impact of a simulated ransomware-like program executed on the Windows target aft
 
 ---
 
+![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/ff8f190f47cb721025b140a676fda2712dfc3f3d/RDP_ATTACK/Attack/Images/img%2012.png)
+
+![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/ff8f190f47cb721025b140a676fda2712dfc3f3d/RDP_ATTACK/Attack/Images/img%2013.png)
 
 
 
