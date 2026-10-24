@@ -36,14 +36,14 @@ Detect and investigate failed authentication attempts against the Windows 10 lab
 
 ![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/b1fc73416ef3aca4ee4621aa3e353316439c0d34/RDP_ATTACK/Find%26Protect/Images/img%204.png)
 
+![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/ded53db1992f572c35d9fadbf5ebdcfb22500352/RDP_ATTACK/Find%26Protect/Images/img%207.png)
+
 ![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/b1fc73416ef3aca4ee4621aa3e353316439c0d34/RDP_ATTACK/Find%26Protect/Images/img%202.2.png)
 
 
 ![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/b1fc73416ef3aca4ee4621aa3e353316439c0d34/RDP_ATTACK/Find%26Protect/Images/img%205.png)
 
 ![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/ded53db1992f572c35d9fadbf5ebdcfb22500352/RDP_ATTACK/Find%26Protect/Images/img%206.png)
-
-![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/ded53db1992f572c35d9fadbf5ebdcfb22500352/RDP_ATTACK/Find%26Protect/Images/img%207.png)
 
 ![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/ded53db1992f572c35d9fadbf5ebdcfb22500352/RDP_ATTACK/Find%26Protect/Images/img%208.png)
 
