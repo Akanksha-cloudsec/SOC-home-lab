@@ -35,6 +35,23 @@ Identify **exposed network services** and their reported versions on the **disco
 
 ---
 
+Started the Metasploit Framework from the Kali Linux terminal.
+
+Selected the auxiliary RDP scanning module to check the target for an exposed RDP service.
+
+Set the target IP address.
+
+Ran the scanner against the target:
+
+![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/3056b510bf4c0d15ff617a4c93c6420c0446355b/RDP_ATTACK/Attack/Images/img%204.png)
+
+![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/3056b510bf4c0d15ff617a4c93c6420c0446355b/RDP_ATTACK/Attack/Images/img%205.png)
+
+- **RDP** was detected on **192.168.1.31:3389**.
+- The operating system was identified as **Windows 10.0.19041**.
+- The scan completed against one host.
+
+---
 
 
 
