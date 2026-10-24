@@ -47,17 +47,60 @@ The following timeline is based on the timestamps and event details collected du
 | 4:19:31 PM | 5145 | File access checks | `decryption.exe` |
 | 4:21:03 PM | 5145 | Additional access check | `decryption.exe` |
 
+## 🔐 4. Technical Analysis
 
+### 4.1 Failed authentication followed by successful authentication
 
+Event ID 4625 records a failed logon. Event ID 4624 records a successful logon. Their proximity in time makes it appropriate to investigate whether the successful logon followed the failed attempt.
 
+The successful event has these reported attributes:
 
+- Account: Admin
+- Source IP: 192.168.1.24
+- Workstation: KALI
+- Authentication package: NTLM
+- Logon type: 3 — network logon
 
+Interpretation: This is consistent with authentication over a network, including SMB. Logon Type 3 is not itself proof of a brute-force attack, SMB relay, or pass-the-hash activity.
 
+### 4.2 Administrative share access
 
+Event ID 5140 recorded access to ADMIN$ and C$.
 
+- ADMIN$ is a Windows administrative share associated with the Windows directory.
+- C$ is an administrative share for the C: drive.
+- The reported access mask 0x1 represents a read-data or list-directory access right, depending on the object type.
 
+**Interpretation:** The events support network access to administrative shares. They do not alone prove that a file was downloaded, copied, or changed.
 
+### 4.3 Detailed file-share access
 
+Event ID 5145 provides details about access checks against shared files and directories.
+
+The reported paths included:
+
+- Users
+- Users\Admin\Important file
+- credential.txt
+- financial.txt
+- encryption.exe
+- Launcher.exe
+- decryption.exe
+
+These events establish that Windows evaluated requested access to the specified share objects. To determine the exact activity, the full event fields—including the share name, relative target name, access mask, object type where available, and outcome—must be examined.
+
+### 4.4 Access-mask interpretation
+
+| Access mask | Interpretation | Limitation |
+|---|---|---|
+| `0x1` | Read data for a file or list directory contents for a directory | Does not prove a complete file download |
+| `0x81` | `0x80` plus `0x1`: read attributes and read data/list directory | Does not prove a modification |
+| `0x2` | Write data for a file or add a file to a directory | A requested access right is not, by itself, proof that a write succeeded |
+| `0x10000` | `DELETE` access right | Does not prove deletion or renaming actually occurred |
+| `0x120089` | Combination of requested rights, including `DELETE` | Requires full event context to determine what was attempted and whether it succeeded |
+| `0x12019f` | Combination of requested access rights, including `DELETE` and additional file or standard rights | Does not by itself prove execution, encryption, or a successful file change |
+
+A rename operation can involve delete rights on the original object and appropriate rights on the destination or parent directory. A 0x10000 event alone is not enough to confirm a rename.
 
 
 
