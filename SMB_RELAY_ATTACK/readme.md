@@ -1,23 +1,47 @@
-# 📝 Document 
+# 📝 SOC Incident Investigation Report — SMB Authentication and File-Share Activity 
 
-- **Failed Login alert generate on**
-- **Timestamp: October 20, 2026, 3:50:56 PM**
-- **Severity: Medium**
-- **Target Computer: DESKTOP-F0P06SK**
-- **IP Address: 192.168.1.24**
-- ---
+## 📌 1. Incident Overview
 
-- **First seen on Oct 20, 2026, 3:51:56.525 PM**
-- **Account: Admin**
-- **EventID: 4624 (Successful Logins)**
-- **TotalEvents: 8**
-- **Workstation Name: KALI**
-- **Authentication Package: NTLM**
-- **Logon Type: 3 (Network)** (
-- **TimeStamp: Oct 20,2026, 3:51:56.537 PM**
-- **EventID: 5140 (Network Shared network)**
-- **SharedName:ADMIN**
-- **AccessMask: 0x1 (Read a Shared file)**
+This investigation was conducted in an isolated VirtualBox SOC lab using Kali Linux as the testing workstation and Windows 10 as the target system. Microsoft Sentinel was used to investigate Windows Security events and analyze SMB authentication and file-share activity.
+
+| Field | Details |
+|---|---|
+| Investigation date | October 20, 2026 |
+| Target computer | `DESKTOP-F0P06SK` |
+| Severity | `Medium` |
+| Source IP | `192.168.1.24` |
+| Source workstation | `KALI` |
+| Account | `Admin` |
+| Authentication package | NTLM |
+| Primary logon event | Windows Event ID `4624` |
+| Primary share-access events | Windows Event IDs `5140`, `5145` |
+| Environment | Authorized isolated SOC lab |
+| Investigation status | Evidence review in progress |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## 🛡️ Recommended Mitigations
