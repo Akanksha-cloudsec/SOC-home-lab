@@ -53,6 +53,21 @@ Ran the scanner against the target:
 
 ---
 
+## 🔐 Step 4. RDP Authentication Testing Using Medusa
+
+**Medusa** is a network login auditing tool available in **Kali Linux** that tests whether **usernames** and **passwords** can authenticate to **remote services**.
+
+It can be used for **brute-force attacks**.
+
+![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/3056b510bf4c0d15ff617a4c93c6420c0446355b/RDP_ATTACK/Attack/Images/img%206.png)
+
+**Key Findings**
+
+**User: Admin**           
+
+**Password: Hacker26**
+
+---
 
 
 
