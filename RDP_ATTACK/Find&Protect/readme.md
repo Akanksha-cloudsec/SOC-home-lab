@@ -32,11 +32,23 @@ Detect and investigate failed authentication attempts against the Windows 10 lab
 
 ---
 
+🛡️ **Step 2: RDP Attack Detection Using Microsoft Sentinel**
+
 ![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/135b057fc0ea5d6317bb7255c83618216a371812/RDP_ATTACK/Find%26Protect/Images/img%202.3.png)
 
 ![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/b1fc73416ef3aca4ee4621aa3e353316439c0d34/RDP_ATTACK/Find%26Protect/Images/img%204.png)
 
 ![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/ded53db1992f572c35d9fadbf5ebdcfb22500352/RDP_ATTACK/Find%26Protect/Images/img%207.png)
+
+**Key Finding**
+
+- **Account Name: Admin**
+
+| Event ID | Logon Type | Observed meaning | Time |
+| --- | --- | --- | --- |
+| 4625 | 3 | Failed network logon | 10:31:58 |
+| 4624 | 3 | Successful network logon | 10:33:20 |
+| 4624 | 10 | Successful remote interactive logon, commonly associated with RDP | 10:53:28 |
 
 ![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/b1fc73416ef3aca4ee4621aa3e353316439c0d34/RDP_ATTACK/Find%26Protect/Images/img%202.2.png)
 
