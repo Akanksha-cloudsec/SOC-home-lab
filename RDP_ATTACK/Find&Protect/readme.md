@@ -65,11 +65,27 @@ Detect and investigate failed authentication attempts against the Windows 10 lab
 
 ---
 
-
-
 ![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/b1fc73416ef3aca4ee4621aa3e353316439c0d34/RDP_ATTACK/Find%26Protect/Images/img%205.png)
 
+**Key Finding**
+
+- **TimeStamp: 10:33:20 PM**
+- **WorkStationName: Kali**
+- **AuthenticationPackageName: NTLM**
+
+---
+
+Microsoft Sentinel was used to investigate authentication activity associated with a simulated RDP attack.
+
 ![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/ded53db1992f572c35d9fadbf5ebdcfb22500352/RDP_ATTACK/Find%26Protect/Images/img%206.png)
+
+**Key finding**
+- 
+
+
+
+
+
 
 ![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/ded53db1992f572c35d9fadbf5ebdcfb22500352/RDP_ATTACK/Find%26Protect/Images/img%208.png)
 
