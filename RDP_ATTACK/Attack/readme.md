@@ -87,6 +87,21 @@ Validate whether the credential identified during the previous authentication te
 
 ---
 
+## Step 6. Post-RDP Access: File Inspection and Credential Exposure
+
+Document the activity performed after establishing an interactive RDP session with the Windows target and assess the exposure of sensitive information stored in local files.
+
+![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/3056b510bf4c0d15ff617a4c93c6420c0446355b/RDP_ATTACK/Attack/Images/img%209.png)
+
+**Activities Observed**
+
+- Established an interactive RDP session with the Windows machine.
+- Opened File Explorer and navigated to the Important file directory.
+- Identified several files, including Adobe.exe, AdobeNew.exe, credential.txt, financial.txt, and paint.exe.
+- Opened credential.txt in Notepad.
+- Observed entries containing usernames and passwords stored in plaintext.
+
+---
 
 
 
