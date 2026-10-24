@@ -54,6 +54,18 @@ Detect and investigate failed authentication attempts against the Windows 10 lab
 
 ![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/b1fc73416ef3aca4ee4621aa3e353316439c0d34/RDP_ATTACK/Find%26Protect/Images/img%202.2.png)
 
+**Key Finding**
+- **TimeStamp: 10:31:31 PM**
+- **Rule Name: RDP** 
+- **Telemetry source: Windows Security Events and Sysmon**
+- **EventID: 3**
+- **SourceIP: 192.168.1.30**
+- **SourcePort: 43626**
+- **DestinatonIP: 192.168.1.31**
+
+---
+
+
 
 ![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/b1fc73416ef3aca4ee4621aa3e353316439c0d34/RDP_ATTACK/Find%26Protect/Images/img%205.png)
 
