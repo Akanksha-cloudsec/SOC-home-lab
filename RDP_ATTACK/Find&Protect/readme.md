@@ -102,6 +102,9 @@ Microsoft Sentinel was used to investigate authentication activity associated wi
 
 ![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/ded53db1992f572c35d9fadbf5ebdcfb22500352/RDP_ATTACK/Find%26Protect/Images/img%2010.png)
 
+**Key Finding**
+- 
+
 ![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/ded53db1992f572c35d9fadbf5ebdcfb22500352/RDP_ATTACK/Find%26Protect/Images/img%2011.png)
 
 ![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/ded53db1992f572c35d9fadbf5ebdcfb22500352/RDP_ATTACK/Find%26Protect/Images/img%2012.png)
