@@ -80,10 +80,13 @@ Microsoft Sentinel was used to investigate authentication activity associated wi
 ![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/ded53db1992f572c35d9fadbf5ebdcfb22500352/RDP_ATTACK/Find%26Protect/Images/img%206.png)
 
 **Key finding**
-- 
+| Account | Event ID | FirstSeen [Local Time] | TotalAttempts |
+|---|---:|---|---:|
+| `DESKTOP-F0P06SK\Admin` | 4624 | 10:33:20.952 PM | 24 |
+| `\Admin` | 4625 | 10:33:20.603 PM | 20 |
+| `\` | 4625 | 10:31:58.797 PM | 4 |
 
-
-
+---
 
 
 
