@@ -69,6 +69,23 @@ It can be used for **brute-force attacks**.
 
 ---
 
+## Step 5. Successful RDP Connection from Kali Linux
+
+Validate whether the credential identified during the previous authentication test could establish an interactive Remote Desktop session with the Windows target.
+
+![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/3056b510bf4c0d15ff617a4c93c6420c0446355b/RDP_ATTACK/Attack/Images/img%207.png)
+
+![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/3056b510bf4c0d15ff617a4c93c6420c0446355b/RDP_ATTACK/Attack/Images/img%208.png)
+
+**Key Finding**
+
+- FreeRDP initiated a connection to 192.168.1.31.
+- The Windows desktop was displayed in the remote session.
+- The session used the Admin account.
+- The Windows Command Prompt was opened within the remote desktop.
+- The ipconfig command was executed to inspect network configuration.
+
+---
 
 
 
