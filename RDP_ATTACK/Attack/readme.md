@@ -103,6 +103,24 @@ Document the activity performed after establishing an interactive RDP session wi
 
 ---
 
+## Step 7. Ransomware Simulation After RDP Access
+
+Impact of a simulated ransomware-like program executed on the Windows target after obtaining interactive RDP access.
+
+![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/3056b510bf4c0d15ff617a4c93c6420c0446355b/RDP_ATTACK/Attack/Images/img%2010.png)
+
+![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/3056b510bf4c0d15ff617a4c93c6420c0446355b/RDP_ATTACK/Attack/Images/img%2011.png)
+
+**Activities Observed**
+
+- Navigated to the target user's desktop and file directories.
+- Executed Adobe.exe from the Important file directory.
+- Observed console output reporting that multiple files were being encrypted.
+- Observed filenames with the .enc extension, including credential.txt.enc, financial.txt.enc, and other desktop files.
+- Opened credential.txt.enc in Notepad. The displayed contents appeared unreadable, consistent with encrypted or otherwise transformed data.
+
+---
+
 
 
 
