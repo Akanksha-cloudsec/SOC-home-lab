@@ -1,17 +1,19 @@
 # 📝 Document 
 
-- **Failed Login alert generate on - Timestamp: October 20, 2026, 3:50:56 PM**
+- **Failed Login alert generate on**
+- **Timestamp: October 20, 2026, 3:50:56 PM**
 - **Severity: Medium**
 - **Target Computer: DESKTOP-F0P06SK**
 - **IP Address: 192.168.1.24**
 - ---
-- **First seen: Oct 20, 2026, 3:51:56.525 PM**
+
+- **First seen on Oct 20, 2026, 3:51:56.525 PM**
 - **Account: Admin**
 - **EventID: 4624 (Successful Logins)**
 - **TotalEvents: 8**
 - **Workstation Name: KALI**
 - **Authentication Package: NTLM**
-- **Logon Type: 3 (Network)**
+- **Logon Type: 3 (Network)** (
 - **TimeStamp: Oct 20,2026, 3:51:56.537 PM**
 - **EventID: 5140 (Network Shared network)**
 - **SharedName:ADMIN**
