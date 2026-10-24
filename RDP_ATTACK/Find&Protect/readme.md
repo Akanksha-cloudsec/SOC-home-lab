@@ -1,5 +1,11 @@
 # 🛡️ DEFENSE
 
+![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/b1fc73416ef3aca4ee4621aa3e353316439c0d34/RDP_ATTACK/Find%26Protect/Images/img%201.png)
+
+**Isolate the System**
+
+---
+
 ## 🚨Step 1: Failed Login Alert in Microsoft Defender
 
 Detect and investigate failed authentication attempts against the Windows 10 lab machine using Microsoft Defender's alert interface and Windows Security auditing logs.
@@ -26,7 +32,38 @@ Detect and investigate failed authentication attempts against the Windows 10 lab
 
 ---
 
+![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/135b057fc0ea5d6317bb7255c83618216a371812/RDP_ATTACK/Find%26Protect/Images/img%202.3.png)
 
+![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/b1fc73416ef3aca4ee4621aa3e353316439c0d34/RDP_ATTACK/Find%26Protect/Images/img%202.2.png)
+
+![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/b1fc73416ef3aca4ee4621aa3e353316439c0d34/RDP_ATTACK/Find%26Protect/Images/img%204.png)
+
+![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/b1fc73416ef3aca4ee4621aa3e353316439c0d34/RDP_ATTACK/Find%26Protect/Images/img%205.png)
+
+![image alt]
+![image alt]
+![image alt]
+![image alt]
+
+![image alt]
+![image alt]
+
+![image alt]
+
+![image alt]
+![image alt]
+
+![image alt]
+![image alt]
+
+![image alt]
+![image alt]
+
+![image alt]
+![image alt]
+
+
+![image alt]
 
 
 
