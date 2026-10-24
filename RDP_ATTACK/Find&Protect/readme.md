@@ -88,9 +88,15 @@ Microsoft Sentinel was used to investigate authentication activity associated wi
 
 ---
 
-
-
 ![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/ded53db1992f572c35d9fadbf5ebdcfb22500352/RDP_ATTACK/Find%26Protect/Images/img%208.png)
+
+**Key finding**
+- **TimeStamp: 11:04:06 PM**
+- **EventID: 4688**
+- **Parent Process: C:\Windows\System32\cmd.exe**
+- **New Process Name: C:\Users\Admin\Important file\Adobe.exe**
+
+---
 
 ![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/ded53db1992f572c35d9fadbf5ebdcfb22500352/RDP_ATTACK/Find%26Protect/Images/img%209.png)
 
