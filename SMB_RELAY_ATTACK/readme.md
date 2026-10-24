@@ -102,16 +102,19 @@ These events establish that Windows evaluated requested access to the specified 
 
 A rename operation can involve delete rights on the original object and appropriate rights on the destination or parent directory. A 0x10000 event alone is not enough to confirm a rename.
 
+## 📝 5. Conclusion
 
+The available Windows Security logs show a successful network logon from the Kali workstation, followed by access to administrative shares and detailed access checks involving several files and executable filenames.
 
+These findings are consistent with SMB-based administrative access in the authorized lab environment.
 
+## 📚 6. MITRE ATT&CK References
 
+- Network Share Discovery — T1135
+- SMB/Windows Admin Shares — T1021.002
+- Brute Force — T1110
 
-
-
-
-
-
+---
 
 ## 🛡️ Recommended Mitigations
 
