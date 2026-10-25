@@ -115,13 +115,26 @@ Microsoft Sentinel was used to investigate authentication activity associated wi
 - **ParentCommandLine: "C:\Windows\system32\cmd.exe"**
 - **SHA-256: 4FAD5DBD8D5436D857D01B6199F694DCD85CF8857C399316AB9C4EA320F02D32**
 
+![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/ded53db1992f572c35d9fadbf5ebdcfb22500352/RDP_ATTACK/Find%26Protect/Images/img%2014.png)
+
+---
+
 ![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/ded53db1992f572c35d9fadbf5ebdcfb22500352/RDP_ATTACK/Find%26Protect/Images/img%2011.png)
+
+**Key Finding**
+- **TimeStamp: 11:04:06 PM**
+- **EventID: 5 (Process Terminated)**
+- **Image: C:\Users\Admin\Important file\Adobe.exe**
+
+---
 
 ![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/ded53db1992f572c35d9fadbf5ebdcfb22500352/RDP_ATTACK/Find%26Protect/Images/img%2012.png)
 
+**Key Finding**
+- 
+
 ![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/ded53db1992f572c35d9fadbf5ebdcfb22500352/RDP_ATTACK/Find%26Protect/Images/img%2013.png)
 
-![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/ded53db1992f572c35d9fadbf5ebdcfb22500352/RDP_ATTACK/Find%26Protect/Images/img%2014.png)
 
 ![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/78311e05b1b3d41b9e1563da3b631a8decf94d69/RDP_ATTACK/Find%26Protect/Images/img%2015.5.png)
 
