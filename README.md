@@ -7,6 +7,10 @@ The lab integrates Microsoft Sentinel (SIEM) and Sophos (EDR) with multiple virt
 
 ---
 
+## 📋 Table of Contents
+- <a href="#architecture-diagram">Architecture Diagram</a>
+- <a href="#key-features">Key Features</a>
+
 <h2><a class="anchor" id="architecture-diagram"></a> 🏗️ Architecture Diagram</h2>
 
 ![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/a33e90b2b25f48679955ee7e2c4d6f37f784dd6e/Architecture%20Diagram/Architecture_Diagram.png)
