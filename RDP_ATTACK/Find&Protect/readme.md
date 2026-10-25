@@ -103,7 +103,17 @@ Microsoft Sentinel was used to investigate authentication activity associated wi
 ![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/ded53db1992f572c35d9fadbf5ebdcfb22500352/RDP_ATTACK/Find%26Protect/Images/img%2010.png)
 
 **Key Finding**
-- 
+- **TimeStamp: 11:04:06 PM**
+- **EventID: 1 (Process Creation)**
+- **Image: C:\Users\Admin\Important file\Adobe.exe**
+- **CommandLine: Adobe.exe**
+- **CurrentDirectory: C:\Users\Admin\Important file\***
+- **IntegrityLevel: High**
+- **User: DESKTOP-F0P06SK\Admin**
+- **ParentUser: DESKTOP-F0P06SK\Admin**
+- **ParentImage: C:\Windows\System32\cmd.exe**
+- **ParentCommandLine: "C:\Windows\system32\cmd.exe"**
+- **SHA-256: 4FAD5DBD8D5436D857D01B6199F694DCD85CF8857C399316AB9C4EA320F02D32**
 
 ![image alt](https://github.com/Akanksha-cloudsec/SOC-home-lab/blob/ded53db1992f572c35d9fadbf5ebdcfb22500352/RDP_ATTACK/Find%26Protect/Images/img%2011.png)
 
