@@ -12,6 +12,9 @@ The lab integrates Microsoft Sentinel (SIEM) and Sophos (EDR) with multiple virt
 - <a href="#key-features">Key Features</a>
 - [SMB_Relay_Attack](https://github.com/Akanksha-cloudsec/SOC-home-lab/tree/d07b011a62640e8d0c8698c6e8fec4b0821d9315/SMB_RELAY_ATTACK)
 
+  - [Attack](https://github.com/Akanksha-cloudsec/SOC-home-lab/tree/79138e0bc9948dc0e56081d73fa4889ef036d5da/SMB_RELAY_ATTACK/Attack)
+  - [Defense](https://github.com/Akanksha-cloudsec/SOC-home-lab/tree/79138e0bc9948dc0e56081d73fa4889ef036d5da/SMB_RELAY_ATTACK/Find%26Protect)
+
 
 <h2><a class="anchor" id="architecture-diagram"></a> 🏗️ Architecture Diagram</h2>
 
